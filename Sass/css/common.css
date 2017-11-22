@@ -1,0 +1,59 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, a, form, fieldset, legend, img { margin: 0; padding: 0; }
+
+ul, ol, li { list-style: none; }
+
+a, u { text-decoration: none; }
+
+img { display: block; border: 0; }
+
+i, em { font-style: normal; }
+
+b, strong { font-weight: 100; }
+
+h1, h2, h3, h4, h5, h6 { font-size: 16px; font-weight: 100; }
+
+.clearfix:after { content: "."; clear: both; display: block; height: 0; overflow: hidden; visibility: hidden; }
+
+.fl { float: left; }
+
+.fr { float: right; }
+
+img { vertical-align: middle; border: 0; }
+
+.footer { overflow: hidden; position: relative; }
+.footer .service { width: 1200px; height: 138px; padding: 21px 0 25px; background: url(../img/kqo3w5z5.bmp) no-repeat left; margin: 0 auto; }
+.footer .service .first { padding-left: 10px; }
+.footer .service dl { float: left; font-size: 12px; width: 172px; height: 138px; }
+.footer .service dl b { font-weight: 900; display: inline-block; padding: 6px 0 11px; }
+.footer .service dl dd div { height: 21px; }
+.footer .service .last { width: 336px; }
+.footer .service .last dl { float: left; }
+.footer .service .last dl dd div { height: 21px; padding-top: 10px; }
+.footer .service .last span:first-child { padding: 10px 65px 0 0; }
+.footer .service .last .txt { height: 32px; }
+.footer .foot-nav { width: 100%; height: 23px; background: #463b7f; color: #f5f5f5; padding: 9px 0 7px; }
+.footer .foot-nav .bd { height: 25px; width: 1200px; margin: 0 auto; }
+.footer .foot-nav .bd ul { height: 25px; }
+.footer .foot-nav .bd ul li { float: left; height: 25px; padding-left: 105px; font-size: 14px; line-height: 23px; }
+.footer .foot-nav .bd ul li i { position: relative; width: 22px; height: 23px; display: inline-block; }
+.footer .foot-nav .bd ul li:first-child i { background: url(../img/ezq44dzc.bmp); background-position: 0px 0px; }
+.footer .foot-nav .bd ul li:nth-child(2) i { background: url(../img/ezq44dzc.bmp); background-position: -26px 0px; }
+.footer .foot-nav .bd ul li:nth-child(3) i { background: url(../img/ezq44dzc.bmp); background-position: -51px 0px; }
+.footer .foot-nav .bd ul li:nth-child(4) i { background: url(../img/ezq44dzc.bmp); background-position: -82px 0px; }
+.footer .foot-nav .bd ul li:nth-child(5) i { background: url(../img/ezq44dzc.bmp); background-position: -106px 0px; }
+.footer .footer-about { padding: 27px 0 30px 0; position: relative; width: 1200px; margin: 0 auto; height: 167px; }
+.footer .footer-about .links { height: 16px; font-size: 12px; padding-bottom: 14px; }
+.footer .footer-about .links a { color: #CCCCCC; padding: 0 10px; }
+.footer .footer-about .copyright { color: #999999; overflow: hidden; height: 18px; padding-bottom: 14px; font-size: 12px; }
+.footer .footer-about .copyright span { padding: 0 10px; }
+.footer .footer-about .copyright a { color: #999999; padding: 0 10px; }
+.footer .footer-about .copyright a:nth-child(2) { padding-left: 20px; background: url(../img/pcfooterbatb.png) no-repeat left; }
+.footer .footer-about .authentication { height: 43px; }
+.footer .footer-about .authentication a { color: #999999; width: 108px; height: 40px; margin-top: 3px; padding: 0 10px; float: left; }
+.footer .footer-about .code { position: absolute; z-index: 10px; right: 10px; top: 0px; width: 240px; height: 136px; }
+.footer .footer-about .code li { width: 110px; height: 136px; }
+.footer .footer-about .code li p { text-align: center; font-size: 12px; padding-top: 10px; }
+.footer .footer-about .code li:first-child { float: left; }
+.footer .footer-about .code li:last-child { float: right; }
+
+/*# sourceMappingURL=common.css.map */

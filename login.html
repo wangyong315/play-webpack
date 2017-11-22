@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>登录</title>
+		<link rel="stylesheet" type="text/css" href="css/login.css"/>
+		<link rel="stylesheet" href="css/com.css" />
+		<script src="js/jquery-2.0.3.js"></script>
+		<script src="js/login.js"></script>
+	</head>
+	<body>
+		<!--
+        	描述：大背景
+        -->
+		<div class="bgcolor">
+		    <div class="login_center clearfix">
+		        <div class="login_in fr">
+					<h1>欢迎登录</h1>
+		            <div class="error pngfix" style="display:none" id="error_msg">请输入登录密码。</div> 
+		            <ul class="clearfix">
+		                <li>
+		                    <div class="login_tips ltips01">
+		                        <label>用户名</label>
+		                        <input class="in_style" id="userName" type="text" tabindex="1">
+		                        <i class="picUser"></i>
+		                    </div>
+		                </li>
+		                <li>
+		                    <div class="login_tips ltips02">
+		                        <label>密码</label>
+		                        <input class="in_style" type="password" id="userPass" tabindex="2">
+		                        <i class="picPassWord"></i>
+		                    </div>
+		                </li>
+		                <li class="clearfix" id="capcode" style="display: none">
+							<div>
+								<p>验证码：</p>
+				                <input id="checkCode" class="in_style width100 fl" type="text">
+			                    <a class="yz fl marTop_8" href="#">
+									<img id="logImgCode" style="cursor: pointer;" src="" width="70" height="30">
+			                    </a>
+			                    <a class="change marTop_8" href="#">换一换</a>
+							</div>                
+		                </li> 
+		                <li>
+		                	<label class="rememberMe"><input type="checkbox" checked="checked" id="rememberUserLoginInfo"> 记住账号</label>
+		                </li>
+		            </ul>
+		            <div class="btn_submit">
+		                <input id="loginButton" class="input_sub login_btn" name="" type="button" value="立即登录" tabindex="3">
+		            </div>
+		            <div class="jiathis">
+		                <p>使用合作网站账号登录</p>
+		                <p>
+		                        	<img src="img/dr2f1vtp.bmp" alt="QQ登陆">
+		        	<img src="img/2hde6n5s.bmp" alt="讯雷登录">
+		                </p>
+		            </div>
+		            <div class="msg clearfix">
+		            
+		                <span>还不是寺库会员？<a href="#" target="_blank" class="active">免费注册</a></span>
+		                <span><a href="#" target="_blank">忘记密码？</a></span>
+		            </div>
+		        </div> 
+		    </div>
+		</div>
+		
+		
+		
+		
+		<!--
+        	描述：底部html
+        -->
+		<div class="footer">
+			<ul class="code clearfix">
+				<li>
+					<p>寺库APP</p>
+					<img src="img/3y1n780g.bmp" />
+				</li>
+			</ul>
+			<div class="service">
+				<dl class="first">
+					<dt>
+						<b>新手指南</b>
+					</dt>
+					<dd>
+						<div>
+							注册新用户
+						</div>
+						<div>
+							网上订购流程
+						</div>
+						<div>
+							优惠券使用说明
+						</div>
+						<div>
+							海外站购买说明
+						</div>
+						<div>
+							美国站购买说明
+						</div>
+					</dd>
+				</dl>
+				<dl class="first">
+					<dt>
+						<b>新手指南</b>
+					</dt>
+					<dd>
+						<div>
+							注册新用户
+						</div>
+						<div>
+							网上订购流程
+						</div>
+						<div>
+							优惠券使用说明
+						</div>
+						<div>
+							海外站购买说明
+						</div>
+						<div>
+							美国站购买说明
+						</div>
+					</dd>
+				</dl>
+				<dl class="first">
+					<dt>
+						<b>新手指南</b>
+					</dt>
+					<dd>
+						<div>
+							注册新用户
+						</div>
+						<div>
+							网上订购流程
+						</div>
+						<div>
+							优惠券使用说明
+						</div>
+						<div>
+							海外站购买说明
+						</div>
+						<div>
+							美国站购买说明
+						</div>
+					</dd>
+				</dl>
+				<dl class="first">
+					<dt>
+						<b>新手指南</b>
+					</dt>
+					<dd>
+						<div>
+							注册新用户
+						</div>
+						<div>
+							网上订购流程
+						</div>
+						<div>
+							优惠券使用说明
+						</div>
+						<div>
+							海外站购买说明
+						</div>
+						<div>
+							美国站购买说明
+						</div>
+					</dd>
+				</dl>
+				<dl class="last">
+					<dt>
+						<b>跨境体验店</b>
+					</dt>
+					<dd>
+						<div class="txt">
+							寺库通过在全球多地设立体验店和办事机构的方式，为高端消费者提供贴心的全球奢侈品一站式服务
+						</div>
+						<div>
+							<span>北京</span><span>香港</span>
+						</div>
+						<div>
+							<span>北京</span><span>香港</span>
+						</div>
+						<div>
+							<span>北京</span><span>香港</span>
+						</div>
+					</dd>
+				</dl>
+			</div>
+			<div class="foot-nav">
+				<div class="bd">
+					<ul class="cle">
+						<li>
+							<i></i> 100%正品保证
+						</li>
+						<li>
+							<i></i> 7天退换货
+						</li>
+						<li>
+							<i></i> 专业维修保养
+						</li>
+						<li>
+							<i></i> 权威奢侈品鉴定
+						</li>
+						<li>
+							<i></i> 贴心管家物流
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer-about">
+				<div class="links">
+					<a href="#">寺库网</a>
+					<a href="#">寺库奢侈品养护</a>
+					<a href="#">寺库招商</a>
+					<a href="#">寺库加盟店</a>
+				</div>
+				<div class="copyright">
+					<span>
+						统一社会信用代码：91114522155K
+					</span>
+					<a href="#">京公安备11010102001392</a>
+					<span>京ICP证110119号 京ICP备09084709号-3</span>
+					<span>ISO9001中国质量管理体系认证</span>
+				</div>
+				<div class="links">
+					<a href="#">加入寺库</a>
+					<a href="#">联系我们</a>
+					<a href="#">关于寺库</a>
+					<a href="#">帮助中心</a>
+					<a href="#">寺库微博</a>
+					<a href="#">友情链接</a>
+					<a href="#">奢侈品热词</a>
+					<a href="#">奢侈品资讯</a>
+				</div>
+				<div class="copyright">
+					<span>
+						COPYRIGHT © 2010-2016 北京寺库商贸有限公司 版权所有统一社会信用代码：91114522155K
+					</span>
+				</div>
+				<div class="authentication">
+					<a href="#">
+						<img src="img/5r77m8lk.bmp" />
+					</a>
+					<a href="#">
+						<img src="img/m6fetsa3.bmp" />
+					</a>
+					<a href="#">
+						<img src="img/11anrf68.bmp" style="height: 40px;" />
+					</a>
+					<a href="#">
+						<img src="img/djgnm2yo.bmp" style="height: 40px;" />
+					</a>
+					<a href="#">
+						<img src="img/ep3nxeqd.bmp" />
+					</a>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

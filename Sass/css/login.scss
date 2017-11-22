@@ -1,0 +1,252 @@
+.bgcolor{
+    width: 100%;
+    height: 720px;
+    padding: 30px 0 ;
+    background: url(../img/31vasz5c.bmp) no-repeat center;
+    background-size: 100%;
+    .login_center{
+        width: 1200px;
+        height: 720px;
+        margin:  0 auto;
+        .login_in{
+            box-shadow: 0 0 23px rgba(0,0,0,.1);
+            width: 310px;
+            height: 377px;
+            padding: 30px 35px;
+            margin-top: 120px;
+            background-color:#fff ;
+            position: relative;
+            float: right;
+            p{
+                height: 20px;
+                font-size:12px;
+            }
+            h1{
+                color: #f19108;
+                font: normal 20px/20px microsoft yahei;
+                text-align: center;
+                margin-bottom: 24px;
+            }
+            .error{
+                height: auto;
+                border: 1px solid #ffac76;
+                background: #ffffcf url(../img/wf93tub9.bmp) no-repeat left center;
+                padding-left: 30px;
+                margin-bottom: 12px;
+                line-height: 25px;
+                color: #ff0200;
+            }
+            li{
+                margin-bottom: 15px;
+                width: 310px;
+            }
+        }
+    }
+}
+        
+        .jiathis{
+            padding-bottom: 30px;
+            p{
+                color: #999;
+                padding: 5px 0;
+                img{
+                    cursor: pointer;
+                    display: inline-block;
+                }
+            }
+        }
+        .login_btn{
+            line-height: 50px;
+            height: 50px;
+        }
+        .input_sub{
+            width: 100%;
+            background-color: #f19108;
+            border: 0;
+            cursor: pointer;
+            font-size: 16px;
+            color: #fff;
+            font-weight: bold;
+            text-align: center;
+        }
+        .btn_submit{ padding:9px 0 8px 0; position:relative; }
+        .rememberMe{ position:relative; top:-10px; *left:-3px}
+
+
+
+/*底部樣式*/
+.footer{
+    overflow: hidden;
+    position: relative;
+    .code{
+        z-index: 10px;
+        width: 120px;
+        height: 136px;
+        float: right;
+        li{
+            width: 110px;
+            height: 136px;
+            p{
+                text-align: center;
+                font-size: 12px;
+                padding-top: 10px;
+            }
+        }
+    }
+    .service{
+        width: 1200px;
+        height: 138px;
+        padding: 21px 0 25px;
+        margin: 0 auto;
+        .first{
+            padding-left: 10px;
+        } 
+        dl{
+            float: left;
+            b{
+                font-weight: 900;
+                display: inline-block;
+                padding: 6px 0 11px;
+            }
+            font-size:12px ;
+            width: 172px;
+            height: 138px;
+            dd{
+                div{
+                    height: 21px;
+                }
+            }
+        }
+        .last{
+                width: 336px;
+            dl{
+                float: left;
+                dd{
+                    div{
+                        height: 21px;
+                        padding-top: 10px;
+                    }
+                }
+            }
+            span:first-child{
+                
+                padding:10px 65px 0 0 ;
+            }
+        }
+        .last .txt{
+            height: 32px;
+        }
+      
+    }
+    .foot-nav{
+            width: 100%;
+            height: 23px;
+            background: #463b7f;
+            color: #f5f5f5;
+            padding: 9px 0 7px;
+            .bd{
+                height: 25px;
+                width: 1200px;
+                margin: 0 auto;
+                ul{
+                    height: 25px;
+                    li{
+                        float: left;
+                        height: 25px;
+                        padding-left: 105px;
+                        font-size: 14px;
+                        line-height: 23px;
+                        i{
+                            position: relative;
+                            width: 22px;
+                            height: 23px;
+                            display: inline-block;
+                        }
+                        
+                    } 
+                    li:first-child{
+                        i{
+                            background: url(../img/ezq44dzc.bmp);
+                            background-position: 0px 0px;
+                        }
+                    }
+                    li:nth-child(2){
+                        i{
+                            background:url(../img/ezq44dzc.bmp);
+                            background-position: -26px 0px;
+                        }
+                    }
+                     li:nth-child(3){
+                        i{
+                            background: url(../img/ezq44dzc.bmp);
+                            background-position: -51px 0px;
+                        }
+                    }
+                     li:nth-child(4){
+                        i{
+                            background: url(../img/ezq44dzc.bmp);
+                            background-position: -82px 0px;
+                        }
+                    }
+                    li:nth-child(5){
+                        i{
+                            background: url(../img/ezq44dzc.bmp);
+                            background-position: -106px 0px;
+                        }
+                    }
+                }
+            }
+    }
+    .footer-about{
+        padding: 27px 0 30px 0;
+        position: relative;
+        width: 1200px;
+        margin:  0 auto;
+        height: 167px;
+        text-align: center;
+        .links{
+            height: 16px;
+            font-size:12px;
+            padding-bottom: 14px;
+            a{
+                color: #CCCCCC;
+                padding: 0 10px;
+            }
+        }
+        .copyright{
+            color: #999999;
+            overflow: hidden;
+            height: 18px;
+            padding-bottom: 14px;
+            font-size: 12px;
+            span{
+                padding: 0 10px;
+            }
+            a{
+                color: #999999;
+                padding:0 10px;
+            }
+            a:nth-child(2){
+                padding-left: 20px;
+                background: url(../img/pcfooterbatb.png) no-repeat left;
+            }
+        }
+        .authentication{
+            height: 43px;
+            a{
+                color: #999999;
+                width:108px;
+                height: 40px;
+                margin-top: 3px;
+                padding: 0 10px;
+                img{
+                    display: inline-block;
+                }
+            }
+        }
+    }
+}
+
+
+
+
