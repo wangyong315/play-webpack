@@ -7,7 +7,7 @@
     "email": "291140738@qq.com"
   },
   "devDependencies": {
-    "gulp": "^3.9.1",
+    "gulp": "^4.0.2",
     "gulp-concat": "^2.6.1",
     "gulp-connect": "^5.0.0",
     "gulp-jshint": "^2.0.4",
