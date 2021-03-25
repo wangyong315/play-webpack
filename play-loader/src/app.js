@@ -1,13 +1,13 @@
-import React from "react";
+import React from 'react';
 
-import IMG from '../imgs/00.jpg'
+import IMG from '../imgs/00.jpg';
 
 import styles from './index.module.less';
 
-export default function App(params) {
+export default function App() {
   return (
     <div className={styles.box}>
-      <img src={IMG} />
+      <img src={IMG} alt="logo" />
     </div>
-  )
+  );
 }
