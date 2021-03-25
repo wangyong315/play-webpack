@@ -1,14 +1,6 @@
-// import React from "react";
-// import ReactDOM from "react-dom";
+import ReactDOM from "react-dom";
+import React from "react";
 
-// function App(params) {
-//   return (
-//     <div>kjjkkjj</div>
-//   )
-// }
+import App from "./app";
 
-
-
-
-
-console.log('ththh0000000hh');
+ReactDOM.render(<App/>, document.getElementById('root'))
