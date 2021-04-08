@@ -20,7 +20,26 @@ module.exports = {
       },
       {
         test: /\.less$/,
-        use: ['style-loader', 'css-loader', 'less-loader'],
+        use: [
+          'style-loader',
+          'css-loader',
+          'less-loader',
+          'postcss-loader',
+        ],
+      },
+      {
+        test: /\.css$/,
+        use: [
+          {
+            loader: 'css-loader',
+            options: {
+              root: 'static',
+              minimize: true,
+              importLoaders: 1,
+            },
+          },
+          'postcss-loader',
+        ],
       },
       {
         test: /\.(png|jpg|gif)$/,

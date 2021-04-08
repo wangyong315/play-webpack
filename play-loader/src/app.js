@@ -6,7 +6,8 @@ import styles from './index.module.less';
 
 export default function App() {
   return (
-    <div className={styles.box}>
+    <div className={styles.box} style={{ color: '#fff' }}>
+      jhjkjhkjhkk
       <img src={IMG} alt="logo" />
       {txt}
     </div>
