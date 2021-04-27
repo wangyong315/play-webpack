@@ -15,23 +15,6 @@ module.exports = {
     path: path.resolve(__dirname, 'dist')
   },
 
-  module: {
-    rules: [
-      {
-        test: /\.css$/,
-        use: [
-          {
-            loader: 'style-loader',
-            options: {
-              insert: 'top'
-            }
-          },
-          'css-loader',
-        ]
-      }
-    ]
-    
-  },
   plugins: [
     new HtmlWebpackPlugin({
       template: './src/index.html',
