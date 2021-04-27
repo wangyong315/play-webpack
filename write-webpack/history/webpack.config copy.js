@@ -21,17 +21,25 @@ module.exports = {
       {
         test: /\.css$/,
         use: [
-          MiniCssExtractPlugin.loader,
-          'postcss-loader',
+          {
+            loader: 'style-loader',
+            options: {
+              insert: 'head'
+            }
+          },
           'css-loader',
         ]
       },
       {
         test: /\.less$/,
         use: [
-          MiniCssExtractPlugin.loader,
+          {
+            loader: 'style-loader',
+            options: {
+              insert: 'head'
+            }
+          },
           'css-loader',
-          'postcss-loader',
           'less-loader',
         ]
       }
@@ -42,6 +50,10 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/index.html',
       filename: 'index.html',
+      minify: {
+        removeAttributeQuotes: true,
+        collapseWhitespace: true
+      },
       hash: true
     }),
     new MiniCssExtractPlugin({
